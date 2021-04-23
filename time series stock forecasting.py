@@ -25,7 +25,7 @@ import warnings
 warnings.filterwarnings('ignore')    
 
 #read the csv file
-df= pd.read_csv("C:\\Users\\user\\Documents\\finance projects\\all_stocks_5yr.csv")
+df= pd.read_csv("all_stocks_5yr.csv")
 df = df.rename(columns={'Name': 'Corp'})
 
 print(df.head())
